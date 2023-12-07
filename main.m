@@ -245,6 +245,7 @@ ylabel('Euler [rad]');
 legend('phi','theta','psi');
 
 hold off
+end
 
 %% Plot 313 Euler rotation development (pi -> -pi)
 
