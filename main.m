@@ -127,7 +127,7 @@ I_z = I(3,3);
 
         dxdt = dxdt';
 
-
+end
 
 function dxdt = diffEq_z(t, X0, K2, I)
 % Integrates axial velocity proportional gain controller
@@ -245,7 +245,7 @@ ylabel('Euler [rad]');
 legend('phi','theta','psi');
 
 hold off
-end
+
 
 %% Plot 313 Euler rotation development (pi -> -pi)
 
